@@ -37,7 +37,7 @@ const Footer = () => {
                                 <FaGithub />
                             </SocialIconLink>
                             <SocialIconLink
-                                href="https://twitter.com/wrathhots"
+                                href="https://twitter.com/dohunkimhan"
                                 aria-label="Twitter"
                                 target="_blank"
                             >

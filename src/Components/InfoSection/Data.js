@@ -75,8 +75,7 @@ export const websiteData = [
         articles: [
             {
                 id: 1,
-                heading: "University of Illinois at Urbana-Champaign",
-                subtext: "B.S. in Computer Science / Winter 2019",
+                heading: "Tecnologías",
                 subtitle: `
                 Python, Javascript, React, Express, SQL, R Programming, Tableau, Microsoft B.I., Azure, Microsoft Office, Adobe Illustrator, Google Analytics, SalesForce, Marketing Twitter, 
                 OpenMRS(Expediente Clínico Electronico Open Source).
@@ -95,7 +94,7 @@ export const websiteData = [
         articles: [
             {
                 id: 1,
-                heading: "Ingles",
+                heading: "Inglés",
                 subtext: "American School Foundation",
                 subtitle: `
                 Primaria, Secundaria y Preparatoria
