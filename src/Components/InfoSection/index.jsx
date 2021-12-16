@@ -34,7 +34,11 @@ const InfoSection = ({
                         {articles.map((article) => (
                             <MainColumnWrapper key={article.id}>
                                 {article.link ? (
-                                    <a href={article.link} target="_blank">
+                                    <a
+                                        href={article.link}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
                                         {" "}
                                         <Heading colorTheme={colorTheme}>
                                             {article.heading}
