@@ -1,15 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { TextWrapper } from "../HeroSection/HeroElements";
+import React from "react";
 import {
     Row,
     InfoContainer,
     InfoWrapper,
     Subtitle,
-    TopText,
-    TitleWrapper,
     Heading,
-    ImgWrap,
-    Img,
     Subtext,
     DividerText,
     HorizontalRuler,
@@ -26,10 +21,6 @@ const InfoSection = ({
     colorTheme = false,
     divider,
 }) => {
-    const [Articles, setArticles] = useState([]);
-    useEffect(() => {
-        setArticles([...articles]);
-    }, []);
     return (
         <InfoContainer colorTheme={colorTheme} id={id}>
             {/* {topText && (
@@ -40,7 +31,7 @@ const InfoSection = ({
             <InfoWrapper topText={topText}>
                 <Row reverse={reverse}>
                     <MainColumn>
-                        {Articles.map((article) => (
+                        {articles.map((article) => (
                             <MainColumnWrapper key={article.id}>
                                 {article.link ? (
                                     <a href={article.link} target="_blank">

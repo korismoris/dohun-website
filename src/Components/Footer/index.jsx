@@ -1,22 +1,9 @@
 import React from "react";
-import {
-    FaFacebook,
-    FaGithub,
-    FaInstagram,
-    FaLinkedin,
-    FaTwitter,
-    FaYoutube,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import {
     FooterContainer,
     FooterWrapper,
-    LinkContainer,
-    LinkWrapper,
-    LinkMenu,
-    LinkTitle,
-    FooterLink,
     SocialMediaWrapper,
-    Logo,
     WebsiteRights,
     SocialIcons,
     SocialIconLink,

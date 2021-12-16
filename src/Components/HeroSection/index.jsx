@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import {
     HeroWrapper,
     HeroContainer,
@@ -6,31 +6,11 @@ import {
     ImageBackground,
     TextWrapper,
     Content,
-    P,
-    IntroContainer,
-    IntroText,
-    HideText,
-    SpanText,
-    Slider,
     ArrowWrapper,
-    Source,
-    Image,
 } from "./HeroElements";
 import { CgArrowDownR } from "react-icons/cg";
-import { gsap } from "gsap";
-import { ScrollToPlugin } from "gsap/ScrollToPlugin";
-
-gsap.registerPlugin(ScrollToPlugin);
 
 const HeroSection = ({ id }) => {
-    const intro = useRef(null);
-    const introText = useRef(null);
-    const slider = useRef(null);
-    const hideText = gsap.utils.selector(introText);
-    const textWrapper = useRef(null);
-    const name = gsap.utils.selector(textWrapper);
-    const arrowWrapper = useRef(null);
-    const tl = useRef();
     return (
         <>
             <HeroWrapper>
