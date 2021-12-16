@@ -18,13 +18,13 @@ const HeroSection = ({ id }) => {
                     <ImageBackground />
 
                     <Content>
-                        <TextWrapper ref={textWrapper}>
+                        <TextWrapper>
                             <H1 className="fullName">
                                 Hola soy Do Hun Kim y soy un Desarrollador Web /
                                 Médico en CDMX
                             </H1>
                         </TextWrapper>
-                        <ArrowWrapper ref={arrowWrapper}>
+                        <ArrowWrapper>
                             <CgArrowDownR />
                         </ArrowWrapper>
                     </Content>
