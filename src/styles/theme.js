@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 `;
 
-export default {
+export default theme = {
     space: [],
     red: "#e76f51",
     orange: "#f4a261",
